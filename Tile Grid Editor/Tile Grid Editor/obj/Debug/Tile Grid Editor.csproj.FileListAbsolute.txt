@@ -1,0 +1,22 @@
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\bin\Debug\TileGridEditor.exe.config
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\bin\Debug\TileGridEditor.exe
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\bin\Debug\TileGridEditor.pdb
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\Tile Grid Editor.csprojAssemblyReference.cache
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\NewMap.baml
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\MainWindow.g.cs
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\NewMap.g.cs
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\SpriteMenu.g.cs
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\App.g.cs
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\TileGridEditor_MarkupCompile.cache
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\TileGridEditor_MarkupCompile.lref
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\MainWindow.baml
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\SpriteMenu.baml
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\TileGridEditor.g.resources
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\TileGridEditor.Properties.Resources.resources
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\Tile Grid Editor.csproj.GenerateResource.cache
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\Tile Grid Editor.csproj.CopyComplete
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\TileGridEditor.exe
+C:\Users\Conor\Documents\GitHub\ct4027-assignment1-CLaDOS-SODaLC\Tile Grid Editor\Tile Grid Editor\obj\Debug\TileGridEditor.pdb

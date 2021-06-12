@@ -1,0 +1,68 @@
+﻿<Window x:Class="TileGridEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:local="clr-namespace:TileGridEditor"
+        Closing="HandleApplicationClosing"
+        Title="Tile Grid Editor" Height="600" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="LightGray" TextBlock.TextAlignment="Center">
+    <DockPanel>
+        <Menu IsMainMenu="True"  DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New Level" Click="HandleNew"/>
+                <MenuItem x:Name="saveLevel" Header="Save Level" IsEnabled="False" Click="HandleSave"/>
+                <MenuItem Header="Open Level" Click="HandleOpen"/>
+                <MenuItem x:Name="closeLevel" Header="Close Level" IsEnabled="False" Click="HandleLevelClose"/>
+                <Separator/>
+                <MenuItem x:Name="importSprite" Header="Import Sprite" IsEnabled="False" Click="HandleImportSprite"/>
+                <MenuItem x:Name="importTileMap" Header="Import Tile Map" IsEnabled="False" Click="HandleImportTileMap"/>
+                <Separator/>
+                <MenuItem x:Name="exportImage" Header="Export Level as Image" IsEnabled="False" Click="HandleExport"/>
+                <Separator/>
+                <MenuItem Header="Close Tile Grid Editor" Click="HandleApplicationClose"/>
+            </MenuItem>
+            <MenuItem x:Name="toolMenu" Header="Tools" IsEnabled="False">
+                <MenuItem Header="Pen" IsCheckable="True" IsChecked="True" IsEnabled="False" x:Name="toolPen" Click="HandleToolItems"/>
+                <MenuItem Header="Eraser" IsCheckable="True" x:Name="toolEraser" IsEnabled="True" Click="HandleToolItems"/>
+                <Separator />
+                <MenuItem Header="Show/Hide Grid Lines" IsCheckable="True" IsChecked="True" x:Name="toolLines" IsEnabled="True" Click="HandleToolItems"/>
+            </MenuItem>
+        </Menu>
+        <Grid DockPanel.Dock="Top" ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <local:SpriteMenu x:Name="spriteMenu" DockPanel.Dock="Left" VerticalAlignment="Center" Width="500" Height="500" Visibility="Hidden" Grid.Column="0" Grid.Row="1"/>
+            
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="levelGridText" Visibility="Hidden" Text="Level Grid Map" FontSize="30" Grid.Row="0" VerticalAlignment="Bottom"/>
+                <Border Visibility="Hidden" x:Name="gridBorder" BorderBrush="Black" BorderThickness="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Grid x:Name="DynamicGrid" Background="LightGray" Visibility="Hidden" ShowGridLines="True" />
+                </Border>
+                <Grid Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="32"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="xPos" Grid.Column="0" Text="X: " Visibility="Hidden" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="LightGray" FontSize="30"/>
+                    <TextBlock x:Name="yPos" Grid.Column="2" Text="Y: " Visibility="Hidden" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="LightGray" FontSize="30"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </DockPanel>
+
+</Window>
