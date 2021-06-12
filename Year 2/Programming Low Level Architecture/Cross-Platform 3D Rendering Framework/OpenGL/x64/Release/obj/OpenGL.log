@@ -1,0 +1,21 @@
+﻿  glad.c
+  Application.cpp
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(97,35): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(103,40): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OpenGL\source\Application.cpp(185,21): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OpenGL\source\Application.cpp(240,76): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Framework.cpp
+  Main.cpp
+  ShaderUtilities.cpp
+  Texture.cpp
+  TextureManager.cpp
+  Utilities.cpp
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(97,35): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(103,40): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OpenGL\source\Utilities.cpp(290,21): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OpenGL\source\Utilities.cpp(374,21): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1633 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  OpenGL.vcxproj -> D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Release\bin\OpenGL.exe

@@ -1,0 +1,33 @@
+﻿  glad.c
+  Application.cpp
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(97,35): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(103,40): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OpenGL\source\Application.cpp(185,21): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OpenGL\source\Application.cpp(240,76): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Framework.cpp
+  Main.cpp
+  ShaderUtilities.cpp
+  Texture.cpp
+  TextureManager.cpp
+  Utilities.cpp
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(97,35): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(103,40): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OpenGL\source\Utilities.cpp(290,21): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OpenGL\source\Utilities.cpp(374,21): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_thread.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_thread.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(osmesa_context.obj)' or at 'D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\glfw.pdb'; linking object as if no debug info
+  OpenGL.vcxproj -> D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\x64\Debug\bin\OpenGL.exe

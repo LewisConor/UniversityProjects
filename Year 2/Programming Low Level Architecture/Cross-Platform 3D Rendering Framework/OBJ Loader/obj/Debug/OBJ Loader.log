@@ -1,0 +1,9 @@
+﻿  OBJLoader.cpp
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(97,35): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\include\OBJLoader.h(103,40): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\source\OBJLoader.cpp(64,43): warning C4129: '/': unrecognized character escape sequence
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\source\OBJLoader.cpp(185,55): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\source\OBJLoader.cpp(292,77): warning C4129: '/': unrecognized character escape sequence
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\source\OBJLoader.cpp(362,42): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\source\OBJLoader.cpp(383,49): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  OBJ Loader.vcxproj -> D:\Documents\GitHub\rendering-framework-assessment-LewisConor\Cross-Platform 3D Rendering Framework\OBJ Loader\lib\Debug\OBJLoader.lib
