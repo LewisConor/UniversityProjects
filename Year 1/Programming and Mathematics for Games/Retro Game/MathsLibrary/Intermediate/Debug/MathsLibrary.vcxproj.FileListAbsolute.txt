@@ -1,0 +1,2 @@
+D:\Documents\GitHub\UniversityProjects\Year 1\Programming and Mathematics for Games\Retro Game\Libs\Debug\x64\MathsLibrary.pdb
+D:\Documents\GitHub\UniversityProjects\Year 1\Programming and Mathematics for Games\Retro Game\MathsLibrary\Intermediate\Debug\MathsLibrary.pdb

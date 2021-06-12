@@ -1,0 +1,12 @@
+﻿  Bee.cpp
+  Butterfly.cpp
+  Commander.cpp
+  Main.cpp
+D:\Documents\GitHub\UniversityProjects\Year 1\Programming and Mathematics for Games\Retro Game\RetroGame\Includes\olcPixelGameEngine.h(829,99): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Documents\GitHub\UniversityProjects\Year 1\Programming and Mathematics for Games\Retro Game\RetroGame\Includes\olcPixelGameEngine.h(1088,38): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+  Missile.cpp
+  Scene.cpp
+D:\Documents\GitHub\UniversityProjects\Year 1\Programming and Mathematics for Games\Retro Game\RetroGame\Includes\olcPGEX_Sound.h(400,116): warning C4244: '+=': conversion from 'float' to 'long', possible loss of data
+  Ship.cpp
+  Generating Code...
+  RetroGame.vcxproj -> D:\Documents\GitHub\UniversityProjects\Year 1\Programming and Mathematics for Games\Retro Game\bin\RetroGame.exe

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{59c1d1a7-356e-4c63-b47f-293982bc65c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texture Manager">
+      <UniqueIdentifier>{b1dc83ae-667c-4ac6-bcbb-7a5945b16ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image Loader">
+      <UniqueIdentifier>{41536e33-5de5-4645-91f8-21c42eb03244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image Loader\Image Types">
+      <UniqueIdentifier>{38079139-ae44-4a41-9c83-75c57aff8fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Loader">
+      <UniqueIdentifier>{5c80550e-3d48-4593-b755-73a4f7a9df3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Loader\Image Types">
+      <UniqueIdentifier>{aa0ed81a-895e-418c-8cec-0c10ca591e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture Manager">
+      <UniqueIdentifier>{09908a90-6d53-4b45-959d-521d334737a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameplay">
+      <UniqueIdentifier>{2103a4f0-eafd-4c53-89c9-9d36df6e7ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{247bb15b-137b-434e-bd29-0e2297ceeff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay">
+      <UniqueIdentifier>{81ed6224-d3c2-4e40-b9ce-6b62851f3235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{8b32087d-c1ee-40c4-bf97-d5576f6391fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Game States">
+      <UniqueIdentifier>{ecd19272-501d-4e08-85af-52d2758de108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\GameStates">
+      <UniqueIdentifier>{9d8ea57d-19d0-43c9-a9cb-8000c4d6000b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Game States\State Types">
+      <UniqueIdentifier>{d57c6003-6b6f-4bd9-a202-71fc453c4b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\GameStates\State Types">
+      <UniqueIdentifier>{a69494fd-4fc0-454c-a31c-191c5e9dc856}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ImageLoader.cpp">
+      <Filter>Source Files\Image Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PCXLoader.cpp">
+      <Filter>Source Files\Image Loader\Image Types</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PPMLoader.cpp">
+      <Filter>Source Files\Image Loader\Image Types</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Console.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Renderer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture.cpp">
+      <Filter>Source Files\Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureManager.cpp">
+      <Filter>Source Files\Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level.cpp">
+      <Filter>Source Files\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Player.cpp">
+      <Filter>Source Files\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputManager.cpp">
+      <Filter>Source Files\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameState.cpp">
+      <Filter>Source Files\Core\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameStateManager.cpp">
+      <Filter>Source Files\Core\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SplashState.cpp">
+      <Filter>Source Files\Core\GameStates\State Types</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GamePlayState.cpp">
+      <Filter>Source Files\Core\GameStates\State Types</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Timer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImageLoader.h">
+      <Filter>Header Files\Image Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PCXLoader.h">
+      <Filter>Header Files\Image Loader\Image Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PPMLoader.h">
+      <Filter>Header Files\Image Loader\Image Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Console.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Raycaster_Types.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>Header Files\Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureManager.h">
+      <Filter>Header Files\Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputManager.h">
+      <Filter>Header Files\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>Header Files\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Level.h">
+      <Filter>Header Files\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameState.h">
+      <Filter>Header Files\Core\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameStateManager.h">
+      <Filter>Header Files\Core\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SplashState.h">
+      <Filter>Header Files\Core\Game States\State Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GamePlayState.h">
+      <Filter>Header Files\Core\Game States\State Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Timer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
